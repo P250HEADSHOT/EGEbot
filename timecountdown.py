@@ -8,15 +8,16 @@ import datetime
 out = datetime.timedelta(now, rus)
 print(out)'''
 # continuous-integration
-import telebot
+
 import datetime
-import pytz
-import token
+import tkn
+import telebot
+
 und = 299680495
 technoconf = -1001070076534
 me = 94026383
 sup = "BQADAgADrQEAAm29TQUoveU--qPBlAI"
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(tkn.token)
 
 FMT = "%d.%m.%Y %H:%M"
 rus = datetime.datetime.strptime("09.06.2017 10:00", FMT)
